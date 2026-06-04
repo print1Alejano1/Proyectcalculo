@@ -9,3 +9,10 @@ import sympy as sp
 programa_calculo = ctk.CTk()    
 programa_calculo.title("EID-CALCULO-LIMITES")
 programa_calculo.geometry("1080x720")
+
+
+
+
+
+#para que no se cierre el programa
+programa_calculo.mainloop()
