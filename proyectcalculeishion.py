@@ -1,4 +1,4 @@
-#importamos las librerias necesarias
+#Iportamos las librerias necesarias
 import customtkinter as ctk #aqui tambien estamos dejando abreviado a ctk, y eso vamos a suar cuando queramos usar algo con el custom 
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
