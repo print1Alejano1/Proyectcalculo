@@ -80,3 +80,7 @@ limpiar_button.place(relx=0.15, rely=0.54)
 #crear botón para calcular
 calcular_button = ctk.CTkButton(master=programa_calculo, text="Calcular el limite", command=calcular)
 calcular_button.place(relx=0.01, rely=0.68)
+
+
+#para que no se cierre el programa
+programa_calculo.mainloop()
