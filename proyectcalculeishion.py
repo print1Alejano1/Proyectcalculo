@@ -53,3 +53,6 @@ efe_de_x.place(relx=0.01, rely=0.12)
 
 tendencia_x = ctk.CTkLabel(programa_calculo, text="ingrese la tendencia a 'x'", font=("Calibri", 16))
 tendencia_x.place(relx=0.01, rely=0.26)
+
+funciones_rapidas = ctk.CTkLabel(programa_calculo, text="funciones rapidas", font=("Calibri", 16))
+funciones_rapidas.place(relx=0.01, rely=0.40)
