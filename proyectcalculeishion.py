@@ -46,3 +46,10 @@ ingresar_datos.place(relx=0.01, rely=0.18)
 #crear el "contenedor al número que tiende x"
 ingresar_tendencia = ctk.CTkTextbox(programa_calculo, width=200, height=30)
 ingresar_tendencia.place(relx=0.01, rely=0.32)
+
+#______________________________________instrucciones de los "contenedores"_________________________________________________
+efe_de_x = ctk.CTkLabel(programa_calculo, text="ingrese la funcion de su limite", font=("Calibri", 16))
+efe_de_x.place(relx=0.01, rely=0.12)
+
+tendencia_x = ctk.CTkLabel(programa_calculo, text="ingrese la tendencia a 'x'", font=("Calibri", 16))
+tendencia_x.place(relx=0.01, rely=0.26)
