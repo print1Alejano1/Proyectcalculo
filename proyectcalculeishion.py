@@ -56,3 +56,27 @@ tendencia_x.place(relx=0.01, rely=0.26)
 
 funciones_rapidas = ctk.CTkLabel(programa_calculo, text="funciones rapidas", font=("Calibri", 16))
 funciones_rapidas.place(relx=0.01, rely=0.40)
+
+#_______________________________________creación de botones del programa___________________________________________________
+# --- BLOQUE DE FUNCIONES RÁPIDAS (Aquí puedes seguir metiendo más botones al lado o abajo) ---
+#crear botón coseno
+cos_button = ctk.CTkButton(master=programa_calculo, text="cos(x)", command=coseno)
+cos_button.place(relx=0.01, rely=0.46)
+
+#crear botón seno
+sen_button = ctk.CTkButton(master=programa_calculo, text="sen(x)", command=seno)
+sen_button.place(relx=0.15, rely=0.46)
+
+#crear botón tangente
+tan_button = ctk.CTkButton(master=programa_calculo, text="tan(x)", command=tangente)
+tan_button.place(relx=0.01, rely=0.54)
+
+#crear botón para limpiar los datos
+limpiar_button = ctk.CTkButton(master=programa_calculo, text="Limpiar", command=limpiar)
+limpiar_button.place(relx=0.15, rely=0.54)
+
+
+# --- BOTÓN PARA ACCIÓN DE CÁLCULO ---
+#crear botón para calcular
+calcular_button = ctk.CTkButton(master=programa_calculo, text="Calcular el limite", command=calcular)
+calcular_button.place(relx=0.01, rely=0.68)
