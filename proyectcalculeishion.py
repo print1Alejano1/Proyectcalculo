@@ -36,3 +36,13 @@ def tangente():
 
 def calcular():
     print("NO TOI NI AHI CON EL LIMITE")
+
+
+#______________________________________creación de "contenedores" para ingresar datos______________________________________
+#crear el "contenedor dónde se escriben los datos"
+ingresar_datos = ctk.CTkTextbox(programa_calculo, width=200, height=30)
+ingresar_datos.place(relx=0.01, rely=0.18)
+
+#crear el "contenedor al número que tiende x"
+ingresar_tendencia = ctk.CTkTextbox(programa_calculo, width=200, height=30)
+ingresar_tendencia.place(relx=0.01, rely=0.32)
