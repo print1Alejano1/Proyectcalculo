@@ -58,7 +58,6 @@ funciones_rapidas = ctk.CTkLabel(programa_calculo, text="funciones rapidas", fon
 funciones_rapidas.place(relx=0.01, rely=0.40)
 
 #_______________________________________creación de botones del programa___________________________________________________
-# --- BLOQUE DE FUNCIONES RÁPIDAS (Aquí puedes seguir metiendo más botones al lado o abajo) ---
 #crear botón coseno
 cos_button = ctk.CTkButton(master=programa_calculo, text="cos(x)", command=coseno)
 cos_button.place(relx=0.01, rely=0.46)
